@@ -38,3 +38,4 @@ npm run dev:clean
 
 
 ## Deploy
+https://bingo-driven-backend-v37p.onrender.com
