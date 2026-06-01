@@ -34,7 +34,7 @@ docker-compose down
 ## Execução local
 
 npm install
-npm run dev:clean
+npm run dev
 
 
 ## Deploy
