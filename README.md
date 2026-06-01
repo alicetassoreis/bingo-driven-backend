@@ -7,6 +7,7 @@ API responsável pela lógica do sistema de bingo.
 - TypeScript
 - Express
 - Docker
+- Express
 
 
 ## Docker
