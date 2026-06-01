@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
+    "dev:clean": "npx kill-port 5000 && npm run dev",
     "test:load-envs": "dotenv -e .env.test",
     "test": "npm run test:load-envs -- jest -- --runInBand",
     "test:migration": "npm run test:load-env prisma migrate deploy",
